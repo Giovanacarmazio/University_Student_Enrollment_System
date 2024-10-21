@@ -1,11 +1,42 @@
-# Código em PYTHON que exibe apenas números gerados em duplicidade em um processo de matrícula.
+```markdown
+# University Student Enrollment System
 
-![giphy](https://github.com/Giovanacarmazio/Matricula-Alunos-Universidade/blob/443510273f83421c07de7f68a41a130cc791dd2f/desafio_5_1_enunciado.png)
+Este repositório contém o projeto **University Student Enrollment System**, focado na implementação de um sistema simples de matrícula de alunos em uma universidade. O sistema permite registrar informações de alunos, como nome, número de matrícula e curso, armazenando esses dados de forma organizada.
 
-A equipe de desenvolvimento do sistema, da qual você faz parte, identificou que duas filas estavam sendo criadas para o mesmo fim, uma para cada totem, por isso a confusão, já que senhas iguais eram geradas para ambas as filas. A tarefa de resolver o problema dos números gerados em duplicidade ficou sob sua responsabilidade.
+## Descrição do Projeto
 
-Assim, você precisa desenvolver um código em Python que exiba apenas os números gerados em duplicidade em ambas as filas. Como seria o código desenvolvido?
+O objetivo do **University Student Enrollment System** é criar uma solução para registrar dados de alunos universitários em uma matriz, facilitando o gerenciamento de matrículas e armazenando as informações em um formato acessível.
 
-Para fazer um teste, neste caso, primeiramente pode ser criado um código em Python que crie duas listas contendo 20 números aleatórios, que variam de 1 a 30, usando a biblioteca random.
+## Funcionalidades
 
+- Captura de informações dos alunos (nome, número de matrícula e curso).
+- Armazenamento dos dados em uma matriz.
+- Salvamento das informações em um arquivo de texto para fácil acesso.
 
+## Tecnologias Utilizadas
+
+- **Python**
+
+## Estrutura do Repositório
+
+- `matricula.py`: Código principal para registrar alunos e armazenar os dados.
+- `alunos.txt`: Arquivo gerado contendo os dados dos alunos matriculados.
+
+## Como Executar
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/Giovanacarmazio/Matricula-Alunos-Universidade.git
+   ```
+
+2. Execute o script:
+   ```bash
+   python matricula.py
+   ```
+
+3. Insira os dados solicitados e verifique o arquivo `alunos.txt`.
+
+## Contribuições
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir *issues* ou enviar *pull requests*.
+```
